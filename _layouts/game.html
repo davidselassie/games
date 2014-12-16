@@ -11,6 +11,7 @@
     <div>
       <h2>Tags</h2>
       <ul>
+        <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
         {% for tag in page.tags %}
         <li><a href="{{ site.baseurl }}/?tag={{ tag }}">{{ tag }}</a></li>
         {% endfor %}

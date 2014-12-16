@@ -1,4 +1,4 @@
-games
+Games
 =====
 
-Spirit games.
+Encyclopedia of group games. http://selassid.github.io/games/

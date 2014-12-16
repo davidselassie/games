@@ -31,6 +31,7 @@
     <h2>Filters</h2>
     <ul>
       <!-- All links require target="_self" to actually cause a page reload when using $location. -->
+      <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
       <li><a href="{{ site.baseurl }}/" target="_self">None</a></li>
       {% assign sorted_tags = (site.tags | sort:0) %}
       {% for tag in sorted_tags %}
