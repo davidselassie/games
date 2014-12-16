@@ -3,10 +3,9 @@
 <!DOCTYPE html>
 <html ng-app="gameListApp">
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <title>Games</title>
-    <!-- Needed since GitHub Pages hosts under /games. -->
-    <base href="/games">
+    <base href="{{ site.baseurl }}">
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.7/angular.min.js"></script>
     <script>
       var gameListApp = angular.module('gameListApp', []).config(function ($locationProvider) {
@@ -32,18 +31,18 @@
     <h2>Filters</h2>
     <ul>
       <!-- All links require target="_self" to actually cause a page reload when using $location. -->
-      <li><a href="index.html" target="_self">None</a></li>
+      <li><a href="{{ site.baseurl }}/" target="_self">None</a></li>
       {% assign sorted_tags = (site.tags | sort:0) %}
       {% for tag in sorted_tags %}
       {% assign tag_first = (tag | first) %}
-      <li><a href="index.html?tag={{ tag_first }}" target="_self">{{ tag_first }}</a></li>
+      <li><a href="{{ site.baseurl }}/?tag={{ tag_first }}" target="_self">{{ tag_first }}</a></li>
       {% endfor %}
     </ul>
 
     <ul>
       {% for post in site.posts %}
       <li ng-cloak ng-show="shouldShow({{ post.tags | jsonify | escape }})">
-        <a href="{{ post.url }}" target="_self">{{ post.title }}</a>
+        <a href="{{ site.baseurl }}{{ post.url }}" target="_self">{{ post.title }}</a>
       </li>
       {% endfor %}
     </ul>
