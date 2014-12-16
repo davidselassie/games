@@ -1,42 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }} - Games</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   </head>
 
-  <body>
-    <h1>{{ page.title }}</h1>
+  <body style="padding-top: 2em;">
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="{{ site.baseurl }}/">Games</a></li>
+        <li class="active">{{ page.title }}</li>
+      </ol>
 
-    <div>
-      <h2>Tags</h2>
-      <ul>
-        <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
-        {% for tag in page.tags %}
-        <li><a href="{{ site.baseurl }}/?tag={{ tag }}">{{ tag }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
+      <div class="page-header">
+        <h1>{{ page.title }} <small>{{ page.oneliner }}</small></h1>
+      </div>
 
-    <div>
-      <h2>Players</h2>
-      For {{ page.players }} players.
-    </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Tags</h2>
+          <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
+          {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/?tag={{ tag }}"><span class="label label-primary">{{ tag }}</span></a>
+          {% endfor %}
+        </div>
 
-    {% if page.tools %}
-    <div>
-      <h2>Tools</h2>
-      <ul>
-        {% for tool in page.tools %}
-        <li>{{ tool }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-    {% endif %}
+        <div class="col-md-4">
+          <h2>Players</h2>
+          For {{ page.players }} players.
+        </div>
 
-    <div>
-      <h2>Gameplay</h2>
-      {{ content }}
+        {% if page.tools %}
+        <div class="col-md-4">
+          <h2>Tools</h2>
+          <ul>
+            {% for tool in page.tools %}
+            <li>{{ tool }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+      </div>
+
+      <div>
+        <h2>Gameplay</h2>
+        {{ content }}
+      </div>
     </div>
   </body>
 </html>
