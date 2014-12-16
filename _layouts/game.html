@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>{{ page.title }} - Games</title>
+  </head>
+
+  <body>
+    <h1>{{ page.title }}</h1>
+
+    <div>
+      <h2>Tags</h2>
+      <ul>
+        {% for tag in page.tags %}
+        <li><a href="/?tag={{ tag }}">{{ tag }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div>
+      <h2>Players</h2>
+      For {{ page.players }} players.
+    </div>
+
+    {% if page.tools %}
+    <div>
+      <h2>Tools</h2>
+      <ul>
+        {% for tool in page.tools %}
+        <li>{{ tool }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+
+    <div>
+      <h2>Gameplay</h2>
+      {{ content }}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+---
+permalink: none
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: game
+      category: game
