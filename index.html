@@ -35,47 +35,51 @@
     </script>
   </head>
 
-  <body ng-controller="FilterController" style="padding-top: 2em;">
+  <body ng-controller="FilterController">
     <div class="container">
-      <ol class="breadcrumb">
-        <li class="active">Games</li>
-      </ol>
 
-      <div class="btn-group">
-        <button type="button" class="btn btn-lg btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-          <span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
-          <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
-          {% raw %}
-          <span style="margin-left: 0.25em;">{{ getFilterTag() }}</span>
-          {% endraw %}
-          <span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu" role="menu">
-          <!-- All links require target="_self" to actually cause a page reload when using $location. -->
-          <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
-          {% assign sorted_tags = (site.tags | sort:0) %}
-          {% for tag in sorted_tags %}
-          {% assign tag_first = (tag | first) %}
-          <li>
-            <a href="{{ site.baseurl }}/?tag={{ tag_first }}" target="_self">
-              {{ tag_first }}
+      <div class="page-header">
+        <ol class="breadcrumb">
+          <li>Games</li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
+              {% raw %}
+              <span style="margin-left: 0.25em;">{{ getFilterTag() }}</span>
+              {% endraw %}
+              <span class="caret"></span>
             </a>
+            <ul class="dropdown-menu" role="menu">
+              <!-- All links require target="_self" to actually cause a page reload when using $location. -->
+              <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
+              {% assign sorted_tags = (site.tags | sort:0) %}
+              {% for tag in sorted_tags %}
+              {% assign tag_first = (tag | first) %}
+              <li>
+                <a href="{{ site.baseurl }}/?tag={{ tag_first }}" target="_self">
+                  {{ tag_first }}
+                </a>
+              </li>
+              {% endfor %}
+              <li class="divider"></li>
+              <li>
+                <a href="{{ site.baseurl }}/" target="_self">
+                  <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </a>
+              </li>
+            </ul>
           </li>
-          {% endfor %}
-          <li class="divider"></li>
-          <li>
-            <a href="{{ site.baseurl }}/" target="_self">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-            </a>
-          </li>
-        </ul>
+
+        </ol>
       </div>
 
       {% assign sorted_posts = (site.posts | sort:title) %}
       {% for post in sorted_posts %}
       <h2 ng-cloak ng-show="shouldShow({{ post.tags | jsonify | escape }})">
         <a href="{{ site.baseurl }}{{ post.url }}" target="_self">{{ post.title }}</a>
-        <small>{{ post.oneliner }}</small>
+        <small class="hidden-xs">{{ post.oneliner }}</small>
       </h2>
       {% endfor %}
 
