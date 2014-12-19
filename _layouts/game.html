@@ -18,7 +18,12 @@
           <li class="active">{{ page.title }}</li>
         </ol>
 
-        <h1>{{ page.title }} <small>{{ page.oneliner }}</small></h1>
+        <h1>{{ page.title }}
+          {% if page.alttitles %}
+          <small>AKA {{ page.alttitles | join:', ' }}</small>
+          {% endif %}
+        </h1>
+        <p class="lead">{{ page.oneliner }}</p>
       </div>
 
       <div class="row">
