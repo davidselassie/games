@@ -1,12 +1,12 @@
 ---
 title: Malorie Family Fun Game
-tags: group-medium group-large style-party
 alttitles:
   - Celebrity
   - Bowl Game
+tags: group-medium style-party
 
-oneliner: Taboo, charades, words
-players: ~5+
+oneliner: Taboo, charades, then a single word
+players: ~5 - ~20
 tools:
   - Paper
   - Pencils

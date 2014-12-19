@@ -1,6 +1,8 @@
 ---
 title: Camouflage
-tags: group-small group-medium group-large style-playground no-tools
+alttitles:
+  - Sniper
+tags: group-small group-medium style-playground no-tools
 
 oneliner: Hide in the bushes
 players: 3+

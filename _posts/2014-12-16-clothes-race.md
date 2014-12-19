@@ -1,6 +1,6 @@
 ---
 title: Clothes Race
-tags: group-large style-spirit style-playground
+tags: group-large style-spirit no-tools
 
 oneliner: Make a bridge out of clothes
 players: 15+

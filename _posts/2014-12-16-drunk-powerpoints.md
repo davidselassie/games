@@ -3,7 +3,7 @@ title: Drunk PowerPoints
 tags: group-small group-medium group-large style-drinking style-party
 
 oneliner: Present on everything
-players: ~5+
+players: ~3+
 tools:
   - Paper
   - Pens
