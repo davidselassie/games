@@ -1,0 +1,19 @@
+.breadcrumb > li.filtercrumb::before {
+    content: "+ ";
+}
+
+.page-footer {
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+}
+
+.footer-links {
+    text-align: center;
+    background-color: inherit;
+}
+
+.page-footer .breadcrumb > li + li::before {
+    content: "・ ";
+    padding: 0;
+}
