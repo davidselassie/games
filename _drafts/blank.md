@@ -1,11 +1,14 @@
 ---
-title:
+title: TITLE
 alttitles:
-  -
-tags:
+  - ONE
+  - TWO
+tags: TAG1 TAG2
 
-oneliner:
-players:
+oneliner: CATCHY
+players: 99
 tools:
-  -
+  - HAMMER
+  - SICLE
 ---
+DESCRIPTION
