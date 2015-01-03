@@ -1,5 +1,7 @@
 ---
 title: Cardboard
+alttitles:
+  - Pizza Box
 tags: group-small group-medium style-drinking
 
 oneliner: Toss quarters and draw shapes
