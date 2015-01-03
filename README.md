@@ -7,14 +7,19 @@ We'd love to have you add, clarify, expand, and jazz up our list of group games!
 
 Want to add a new game or modify an existing description? Fork this repository on GitHub, modify the game descriptions, then submit a pull request to have your new games merged back into here.
 
-Each of the game descriptions lives in the `_posts` folder. To add a new game, add a new file entitled `YYYY-MM-DD-GAME_TITLE.md` based on the empty template in `_drafts/blank.md` and fill out all the appropriate description information. See the [GitHub Pages documentation](https://help.github.com/articles/using-jekyll-with-pages/) for how to preview your game description.
+Each of the game descriptions lives in the `_posts` folder. To add a new game, add a new file entitled `YYYY-MM-DD-game-title.md`, with today's date and a short version of the game's name. Copy the empty template in `_drafts/blank.md` into the file, then fill out all the appropriate description information.
+
+See the [GitHub Pages documentation](https://help.github.com/articles/using-jekyll-with-pages/) for how to preview your game description.
 
 ## Description
-In addition to the instructions for how to play the game, there's also some metadata that you can fill out so folks know when your game is best played and can find it easily.
+Most of your description will be the actual text for how to play the game. That is written below the header using [Markdown](https://guides.github.com/features/mastering-markdown/), which is an easy way to annotate text.
+
+### Header
+In addition to the instructions for how to play the game, there's also some metadata in a header that you can fill out so folks know when your game is best played and can find it easily. It is the stuff between the `---`s at the top of the file.
 
 * `title` should be the name of your game
 * `alttitles` should be a list of other names people know your game by; this can be skipped
-* `tags` should be a list of labels that classify your game
+* `tags` should be a list of labels that classify your game; see the next section below
 * `oneliner` should be a short catchy description of the game; maybe people who don't know the name remember what it's like
 * `players` is a more specific range of how many players this game is good for
 * `tools` is a list of physical tools you need to play the game; this can be skipped
