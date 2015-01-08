@@ -11,7 +11,7 @@ oneliner: Toss quarters and draw shapes
 players: 3+
 tools:
   - Large sheet of paper or blank Cardboard
-  - Querter
+  - Quarter
   - Pen / pencil
 ---
 ### Setup
