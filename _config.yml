@@ -1,11 +1,12 @@
 ---
 baseurl: /games
-permalink: none
+collections:
+  games:
+      output: true
+      permalink: :collection/:title:output_ext  # Permalink should use pretty title.
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
-      type: posts
+      type: games
     values:
       layout: game
-      category: game

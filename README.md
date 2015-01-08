@@ -7,7 +7,7 @@ We'd love to have you add, clarify, expand, and jazz up our list of group games!
 
 Want to add a new game or modify an existing description? Fork this repository on GitHub, modify the game descriptions, then submit a pull request to have your new games merged back into here.
 
-Each of the game descriptions lives in the `_posts` folder. To add a new game, add a new file entitled `YYYY-MM-DD-game-title.md`, with today's date and a short version of the game's name. Copy the empty template in `_drafts/blank.md` into the file, then fill out all the appropriate description information.
+Each of the game descriptions lives in the `_games` folder. To add a new game, add a new file entitled `gamename.md`, with a short version of the game's name. Copy the empty template in `_drafts/blank.md` into the file, then fill out all the appropriate description information.
 
 See the [GitHub Pages documentation](https://help.github.com/articles/using-jekyll-with-pages/) for how to preview your game description.
 

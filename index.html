@@ -73,11 +73,11 @@
         </ol>
       </div>
 
-      {% assign sorted_posts = (site.posts | sort:'title') %}
-      {% for post in sorted_posts %}
-      <h2 ng-cloak ng-show="shouldShow({{ post.tags | jsonify | escape }})">
-        <a href="{{ site.baseurl }}{{ post.url }}" target="_self">{{ post.title }}</a>
-        <small class="hidden-xs">{{ post.oneliner }}</small>
+      {% assign sorted_games = (site.games | sort:'title') %}
+      {% for game in sorted_games %}
+      <h2 ng-cloak ng-show="shouldShow({{ game.tags | jsonify | escape }})">
+        <a href="{{ site.baseurl }}{{ game.url }}" target="_self">{{ game.title }}</a>
+        <small class="hidden-xs">{{ game.oneliner }}</small>
       </h2>
       {% endfor %}
 
