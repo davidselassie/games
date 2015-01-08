@@ -1,6 +1,10 @@
 ---
 title: Miniature Tanks
-tags: group-medium group-large style-spirit no-tools
+tags:
+  - group-medium
+  - group-large
+  - style-spirit
+  - no-tools
 
 oneliner: Never stop being a tank
 players: ~5+

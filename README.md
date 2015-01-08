@@ -24,6 +24,13 @@ In addition to the instructions for how to play the game, there's also some meta
 * `players` is a more specific range of how many players this game is good for
 * `tools` is a list of physical tools you need to play the game; this can be skipped
 
+Anything that's a "list" above should be in the [YAML list format](https://en.wikipedia.org/wiki/YAML#Lists) like
+```yaml
+tools:
+  - Hammer
+  - Nail
+```
+
 ### Tags
 To help people find a game quickly, try to label your game with what broad categories it applies to:
 

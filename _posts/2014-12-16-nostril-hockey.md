@@ -1,6 +1,10 @@
 ---
 title: Nostril Hockey
-tags: group-small group-medium style-party style-drinking
+tags:
+  - group-small
+  - group-medium
+  - style-party
+  - style-drinking
 
 oneliner: Keep the 8-ball moving
 players: 2 - ~10

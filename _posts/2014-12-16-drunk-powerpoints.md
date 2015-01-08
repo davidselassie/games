@@ -1,6 +1,11 @@
 ---
 title: Drunk PowerPoints
-tags: group-small group-medium group-large style-drinking style-party
+tags:
+  - group-small
+  - group-medium
+  - group-large
+  - style-drinking
+  - style-party
 
 oneliner: Present on everything
 players: ~3+

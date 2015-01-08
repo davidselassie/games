@@ -1,6 +1,11 @@
 ---
 title: Whipped Cream Team
-tags: group-small group-medium group-large style-party style-spirit
+tags:
+  - group-small
+  - group-medium
+  - group-large
+  - style-party
+  - style-spirit
 
 oneliner: Juggle whipped cream
 players: 2+

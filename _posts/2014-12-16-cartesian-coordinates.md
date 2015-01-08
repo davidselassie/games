@@ -1,6 +1,9 @@
 ---
 title: Cartesian Coordinates
-tags: group-small group-medium style-party
+tags:
+  - group-small
+  - group-medium
+  - style-party
 
 oneliner: Who knows a friend best?
 players: 4 - 8

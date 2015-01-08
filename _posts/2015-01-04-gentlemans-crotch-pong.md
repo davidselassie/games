@@ -1,6 +1,10 @@
 ---
 title: Gentlemen's Crotch Pong
-tags: group-small group-medium style-drinking style-playground
+tags:
+  - group-small
+  - group-medium
+  - style-drinking
+  - style-playground
 
 oneliner: Very casual beer pong
 players: 2+

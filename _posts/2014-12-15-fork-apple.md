@@ -1,6 +1,9 @@
 ---
 title: Fork-Apple
-tags: group-small group-medium style-party
+tags:
+  - group-small
+  - group-medium
+  - style-party
 
 oneliner: See how many forks you can stick in an apple
 players: 2 - ~10

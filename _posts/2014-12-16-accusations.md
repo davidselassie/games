@@ -1,6 +1,11 @@
 ---
 title: Accusations
-tags: group-medium group-large style-party style-drinking no-tools
+tags:
+  - group-medium
+  - group-large
+  - style-party
+  - style-drinking
+  - no-tools
 
 oneliner: Guess your friends' secrets
 players: ~5+

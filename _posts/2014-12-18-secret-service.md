@@ -1,6 +1,8 @@
 ---
 title: Secret Service
-tags: style-ongoing no-tools
+tags:
+  - style-ongoing
+  - no-tools
 
 oneliner: Jump on top of the President
 players: any number of

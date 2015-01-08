@@ -1,6 +1,10 @@
 ---
 title: Pancakes or Waffles
-tags: no-tools group-small group-medium style-party
+tags:
+  - no-tools
+  - group-small
+  - group-medium
+  - style-party
 
 oneliner: Vote things out of existence
 players: 2 to ~20

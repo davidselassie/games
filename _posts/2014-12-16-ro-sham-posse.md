@@ -1,6 +1,8 @@
 ---
 title: Ro Sham Posse
-tags: group-large style-spirit
+tags:
+  - group-large
+  - style-spirit
 
 oneliner: Cheer on the ro sham champion
 players: 10+
