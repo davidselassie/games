@@ -81,7 +81,7 @@
       {% for game in sorted_games %}
       <h2 ng-cloak ng-show="shouldShow({{ game.tags | jsonify | escape }})">
         <a href="{{ site.baseurl }}{{ game.url }}" target="_self">{{ game.title }}</a>
-        <small class="hidden-xs">{{ game.oneliner }}</small>
+        <p class="lead hidden-xs">{{ game.oneliner }}</p>
       </h2>
       {% endfor %}
 
