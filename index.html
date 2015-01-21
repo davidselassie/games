@@ -58,14 +58,18 @@
             <ul class="dropdown-menu" role="menu">
               <!-- All links require target="_self" to actually cause a page reload when using $location. -->
               <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
-              {% assign sorted_tags = (site.tags | sort:0) %}
+              <!-- Horrible hack to get sorted list of unique tags in the "games" collection. Map out the tag arrays, join by spaces twice to flatten the array and concat, then split back into an array and sort. -->
+              {% assign sorted_tags = (site.games | map:'tags' | join | join | split:' ' | sort) %}
+              {% assign last_tag = false %}
               {% for tag in sorted_tags %}
-              {% assign tag_first = (tag | first) %}
+              {% if tag != last_tag %}
               <li>
-                <a href="{{ site.baseurl }}/?tag={{ tag_first }}" target="_self">
-                  {{ tag_first }}
+                <a href="{{ site.baseurl }}/?tag={{ tag }}" target="_self">
+                  {{ tag }}
                 </a>
               </li>
+              {% assign last_tag = tag %}
+              {% endif %}
               {% endfor %}
             </ul>
           </li>
