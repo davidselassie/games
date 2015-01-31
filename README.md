@@ -37,6 +37,7 @@ To help people find a game quickly, try to label your game with what broad categ
 * `group-large` - Best played with 15+ people
 * `group-medium` - Best played with 5+ people
 * `group-small` - Best played with <5 people
+* `group-solo` - Best played alone
 * `no-tools` - No physical tools required to play
 * `active-game`- Game that is physically active and requires movement
 * `word-game` -Game that is a play on words
