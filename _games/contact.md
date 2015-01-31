@@ -12,13 +12,15 @@ players: 3-12
 DESCRIPTION
 I have a word in my head and other players have to guess it letter-by-letter.
 
-The purpose of this game is to guess the it player's word.  The it player picks a noun (no proper nouns) and provides the first letter of their noun. The other players describe a word that starts with the same letter as hinted. The it player then states no it is X (another noun that starts with the same letter but not their chosen word).   
+The purpose of this game is to guess the it player's secret word.  The it player picks a noun (no proper nouns) and provides the first letter of their noun. The other players describe a word that starts with the same letter as hinted. The it player then states no it is X (another noun that starts with the same letter but not their chosen word).   
 
 Example, the it player picks the word sheep and announces the word starts with S.
-Player 1 asks: Is it an animal that slithers.
-It player: No, it is not a snack.
+Player 1 asks: Is it an animal that slithers?
+It player: No, it is not a snake.
 Player 2 asks: Is it a thing you put on your feet.
 It player: No, it is not a sock.
+Player 3 asks: Is it a at the beach?
+It player: No, it is not sand (It player could answer, no it is not sea, no it is not sandcrabs, no it is not sea foam. As long as it fits the clue and starts the the letter)
 
 If the player cannot get the word, he or she has to reveal the second letter of the word.  As a fail safe, two players must both know what the word from the clue.
 
