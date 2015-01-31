@@ -16,3 +16,5 @@ For example, main player picks the word running.
 Player 2: "Do you need legs to coffee cup?" Main player answers "yes." 
 Player 3:"Can you coffee cup in water?" Main player would answer "no"
 Player 4: "Do you need to be in shape to coffe cup?" Main player would answer "yes, for large amounts of time"
+
+This process continues until the players figure out the word.
