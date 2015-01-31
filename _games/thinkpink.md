@@ -5,7 +5,7 @@ alttitles:
 
 Thinky Pinky, Thinkedy Pinkedy
 
-oneliner: Quick guessing word game.
+oneliner: Quick creative rhyming guessing word game.
 
 tags:
 
