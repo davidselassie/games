@@ -39,10 +39,13 @@ To help people find a game quickly, try to label your game with what broad categ
 * `group-small` - Best played with <5 people
 * `no-tools` - No physical tools required to play
 * `style-drinking` - Best played as a drinking game
-* `style-spirit` - Best played as a spirit game
+* `style-spirit` - Best played as a spirit game or a group energizer
 * `style-ongoing` - Has ongoing encounters throughout life
 * `style-party` - Best played in a party
 * `style-playground` - Best played out in the world
+* 'style-enclosed' -Game that can be played in enclosed spaces such as a car
+* 'style-ice breaker' -Game that can be used as an ice breaker
+
 
 ## License
 All game descriptions are copyright the [contributors](https://github.com/selassid/games/graphs/contributors) and are licensed [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/). The Jekyll templates and configuration are licensed [MIT](http://mit-license.org). Anything you contribute here will be released under these terms.
