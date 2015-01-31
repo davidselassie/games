@@ -38,13 +38,19 @@ To help people find a game quickly, try to label your game with what broad categ
 * `group-medium` - Best played with 5+ people
 * `group-small` - Best played with <5 people
 * `no-tools` - No physical tools required to play
+* `active-game`- Game that is physically active and requires movement
+* `word-game` -Game that is a play on words
+* `thinking-game`-Game that requires intelligence or strategy
+* `dare-game` -Game that requires the particpant to do silly activities similar to a dare
+* `touch-game` - Game that requires physical intimate touch
 * `style-drinking` - Best played as a drinking game
 * `style-spirit` - Best played as a spirit game or a group energizer
 * `style-ongoing` - Has ongoing encounters throughout life
 * `style-party` - Best played in a party
-* `style-playground` - Best played out in the world
-* 'style-enclosed' -Game that can be played in enclosed spaces such as a car
-* 'style-ice breaker' -Game that can be used as an ice breaker
+* `style-playground` - Best played outdoors on a hard surface
+* `styly-outdoors`  -Best played in a large open space
+* `style-enclosed` -Game that can be played in enclosed spaces such as a car
+* `style-ice breaker` -Game that can be used as an ice breaker
 
 
 ## License
