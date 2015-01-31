@@ -4,6 +4,7 @@ tags:
   - group-small
   - group-medium
   - style-party
+  - not-safe-for-kids
 
 oneliner: See how many forks you can stick in an apple
 players: 2 - ~10
