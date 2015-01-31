@@ -53,7 +53,7 @@ To help people find a game quickly, try to label your game with what broad categ
 * `style-enclosed` -Game that can be played in enclosed spaces such as a car
 * `style-ice breaker` -Game that can be used as an ice breaker
 * `style-silly` -Game that forces people to be in a silly situation
-* `not-safe-for-kids` - This game as some element of safety concern and should not be played with children.
+* `not-safe-for-kids` - This game has some element of safety concern and should not be played with children.
 
 
 ## License
