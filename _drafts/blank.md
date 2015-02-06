@@ -1,16 +1,35 @@
 ---
-title: TITLE
-alttitles:
-  - ONE
-  - TWO
+title: Some Awesome Game Name
+alttitles: # Optional, you can remove this if there are no alternate names.
+  - Another Name People Call This Game
+  - One More Name People Know This Game By
 tags:
-  - TAG1
-  - TAG2
+  - style-party
+  - group-medium
 
-oneliner: CATCHY
-players: 99
-tools:
-  - HAMMER
-  - SICLE
+oneliner: A really short one-line description of the game
+players: 2 - ~30
+tools: # Optional, you can remove this if the game doesn't need any tools.
+  - One tool you'll need
+  - Another tool you'll need
 ---
-DESCRIPTION
+Everything after the second `---` is just text! You can write whatever you want here!
+
+You can add headers using `## Header Name`, lists by prefixing with `-`s, and bold text by surrounding in `*stars*`. Check out [Markdown](https://guides.github.com/features/mastering-markdown/#syntax), for all the things you can do! If you're editing from the GitHub webpage directly, try using the `Preview Changes` link to see if your description looks good.
+
+Here's a sample game description:
+
+## Setup
+Describe how to setup the field or any perparations you'll need to make!
+
+## Gameplay
+How do you play the game? What happens during each round?
+
+## Winners
+How do you win the game? Do you hog-tie everyone else?
+
+## Variations
+Describe some cool variations:
+
+- Maybe play with your eyes closed.
+- Maybe play the game with one trapped in a sleeping bag.
