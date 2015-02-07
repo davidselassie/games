@@ -13,8 +13,10 @@ tools:
   - Hammer
   - One nail per person
 ---
+## Setup
 Evenly around the edge of the stump, securely tap in one nail per person who is playing. Everyone claims one nail as their own.
 
+## Gameplay
 On your turn, your goal is to flip the hammer in the air, catch it, and in one motion swing at someone else's nail.
 
 You have a bad flip and aren't allowed to go for a nail if:

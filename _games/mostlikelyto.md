@@ -10,6 +10,7 @@ tags:
 oneliner: Guess which of your friends is
 players: 3 - ~15
 ---
+# Gameplay
 People take turns askings questions like "who is most likely to _something_?". E.g:
 * Who is most likely to lose their wallet tonight?
 * Who is most likely to meet someone they know on the street?

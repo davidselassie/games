@@ -12,6 +12,7 @@ tools:
   - 2 wooden spoons
   - Blindfold
 ---
+## Gameplay
 The purpose of this game is to guess frozen players names while being blindfolded and only touching the individuals with wooden spoons. Multiple players can get in strange positions or pile up on each other and blindfolded person has to guess.
 
 ## Variations
