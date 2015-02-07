@@ -1,16 +1,13 @@
 ---
 title: Contact
-
 tags:
   - style-enclosed
   - word-games
   - no-tools
-oneliner: I have a word in my head and other players have to guess it letter-by-letter.
-players: 3-12
 
+oneliner: Guess a secret word letter-by-letter by asking questions
+players: 2 - ~12
 ---
-DESCRIPTION
-
 The purpose of this game is to guess the it player's secret word.  The it player picks a noun but no proper nouns and provides the first letter of their noun as a starting hint. The other players then describe a word that starts with the same letter as hinted. The it player then states 'No it is not X." X is any word that starts with the hinted letter and fits the description of the clue. 
 
 Example, the it player picks the word sheep and hints that the word starts with S.
