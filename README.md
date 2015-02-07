@@ -6,20 +6,20 @@ Encyclopedia of group games!
 We'd love to have you add, clarify, expand, and jazz up our list of group games!
 
 ### Adding a New Game
-Want to add a new game? Each of the game descriptions lives in the `_games` folder. You can add a new file in there by clicking [here](https://github.com/selassid/games/new/gh-pages/_games). Name it something like `hotpotato.md`, or a short version of the new game's name with `.md` at the end (you need that!). Then copy in [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/blank.md) and fill it with the info for your new game. See the **Game Descriptions** section below for what you should write!
+Want to add a new game? Each of the game descriptions lives in the `_games` folder. You can add a new file in there by clicking [here](https://github.com/selassid/games/new/gh-pages/_games). Name it something like `hotpotato.md`, or a short version of the new game's name with `.md` at the end (you need that!). Then copy in [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/template.md) and fill it with the info for your new game. See the **Game Descriptions** section below for what you should write!
 
 To see if your formatting looks good before you're done, click the **Preview** tab at the top. Once you're done, click the **Commit** button at the bottom to save your description.
- 
+
 ### Editing an Existing Game
 Want to clean up or add to an existing game? Go to the game's page, and click the edit description link at the bottom.
 
 Similar to adding a game, use the **Preview** button to see if your formatting looks good and the **Commit** button at the bottom to save your changes.
 
 ## Description Content
-Write up some good instructions for how to play the game. This can be any text that you want! Remember, someone who has never even seen the game before has to be able to understand them! You can markup your text using [Markdown](https://guides.github.com/features/mastering-markdown/#syntax); see [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/blank.md) for an example of how to do that.
+Write up some good instructions for how to play the game. This can be any text that you want! Remember, someone who has never even seen the game before has to be able to understand them! You can markup your text using [Markdown](https://guides.github.com/features/mastering-markdown/#syntax); see [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/template.md) for an example of how to do that.
 
 ### Header
-In addition to the instructions for how to play the game, there's also some metadata in a header that you can fill out so folks know when your game is best played and can find it easily. It is the stuff between the `---`s at the top of the file.
+In addition to the instructions for how to play the game, there's also some metadata in a header at the top. It is the stuff between the `---`s at the top of the file. It is in a very particular format so the computer can read it and allow people to find your game on the site. You should fill out as much of the information as possible!
 
 * `title` should be the name of your game
 * `alttitles` should be a list of alternate names people know your game by; this can be left out if there aren't any

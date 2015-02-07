@@ -1,6 +1,7 @@
 ---
+# This is a header with a very particular format so the computer can read it. It must be surrounded by `---`s. For your game, replace the fake values on the left-hand side of the `:`s with the correct info about your game.
 title: Some Awesome Game Name
-alttitles: # Optional, you can remove this if there are no alternate names.
+alttitles: # Optional, you can remove this if there are no alternate names. This is a list of things, where each item is on a new line, indented, and starts with a `-`.
   - Another Name People Call This Game
   - One More Name People Know This Game By
 tags:
