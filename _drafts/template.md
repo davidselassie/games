@@ -18,6 +18,8 @@ Everything after the second `---` is just text! You can write whatever you want 
 
 You can add headers using `## Header Name`, lists by prefixing with `-`s, and bold text by surrounding in `*stars*`. Check out [Markdown](https://guides.github.com/features/mastering-markdown/#syntax), for all the things you can do! If you're editing from the GitHub webpage directly, try using the `Preview Changes` link to see if your description looks good.
 
+One tricky thing is that a blank line is required for a new paragraph. Two adjacent lines will be run together. You also need a blank line before lists.
+
 Here's a sample game description:
 
 ## Setup

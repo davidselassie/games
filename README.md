@@ -18,12 +18,32 @@ Similar to adding a game, use the **Preview** button to see if your formatting l
 ## Description Content
 Write up some good instructions for how to play the game. This can be any text that you want! Remember, someone who has never even seen the game before has to be able to understand them! You can markup your text using [Markdown](https://guides.github.com/features/mastering-markdown/#syntax); see [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/template.md) for an example of how to do that.
 
+One tricky thing is that a blank line is required for a new paragraph:
+
+```markdown
+Without a blank line
+the text is combined.
+```
+
+Without a blank line
+the text is combined.
+
+```markdown
+With a blank line
+
+you get a new paragraph.
+```
+
+With a blank line
+
+you get a new paragraph.
+
 ### Header
 In addition to the instructions for how to play the game, there's also some metadata in a header at the top. It is the stuff between the `---`s at the top of the file. It is in a very particular format so the computer can read it and allow people to find your game on the site. You should fill out as much of the information as possible!
 
 * `title` should be the name of your game
 * `alttitles` should be a list of alternate names people know your game by; this can be left out if there aren't any
-* `tags` should be a list of labels that classify your game; see the next section below
+* `tags` should be a list of labels that classify your game; you have to type them out _exactly_ like those in the section below
 * `oneliner` should be a short catchy description of the game; maybe people who don't know the name remember what it's like
 * `players` is a more specific range of how many players this game is good for
 * `tools` is a list of physical tools you need to play the game; this can be left out if there aren't any
@@ -53,11 +73,13 @@ To help people find a game quickly, try to label your game with what broad categ
 * `style-ongoing` - Has ongoing encounters throughout life
 * `style-party` - Best played in a party
 * `style-playground` - Best played outdoors on a hard surface
-* `styly-outdoors`  -Best played in a large open space
-* `style-enclosed` -Game that can be played in enclosed spaces such as a car
-* `style-ice breaker` -Game that can be used as an ice breaker
-* `style-silly` -Game that forces people to be in a silly situation
+* `style-outdoors` - Best played in a large open space
+* `style-enclosed` - Game that can be played in enclosed spaces such as a car
+* `style-icebreaker` - Game that can be used as an ice breaker
+* `style-silly` - Game that forces people to be in a silly situation
 * `not-safe-for-kids` - This game has some element of safety concern and should not be played with children.
+
+If you want to make a new tag, it can't have spaces.
 
 ## License
 All game descriptions are copyright the [contributors](https://github.com/selassid/games/graphs/contributors) and are licensed [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/). The Jekyll templates and configuration are licensed [MIT](http://mit-license.org). Anything you contribute here will be released under these terms.
