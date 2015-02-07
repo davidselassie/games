@@ -1,8 +1,13 @@
 ---
 title: Electric Broom
 tags:
+  - style-playground
+  - group-medium
+  - group-large
+  - style-icebreaker
 
-players: 3+
+oneliner: Hold hands and pull people into a broom
+players: 3 - ~30
 tools:
   - Broom shaped thing
   - Stand for broom (e.g. trash can, stool, lower than 4 ft tall)
