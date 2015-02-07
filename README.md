@@ -5,24 +5,28 @@ Encyclopedia of group games!
 ## Contributing
 We'd love to have you add, clarify, expand, and jazz up our list of group games!
 
-Want to add a new game or modify an existing description? Fork this repository on GitHub, modify the game descriptions, then submit a pull request to have your new games merged back into here.
+### Adding a New Game
+Want to add a new game? Each of the game descriptions lives in the `_games` folder. You can add a new file in there by clicking [here](https://github.com/selassid/games/new/gh-pages/_games). Name it something like `hotpotato.md`, or a short version of the new game's name with `.md` at the end (you need that!). Then copy in [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/blank.md) and fill it with the info for your new game. See the **Game Descriptions** section below for what you should write!
 
-Each of the game descriptions lives in the `_games` folder. To add a new game, add a new file entitled `gamename.md`, with a short version of the game's name. Copy the empty template in `_drafts/blank.md` into the file, then fill out all the appropriate description information.
+To see if your formatting looks good before you're done, click the **Preview** tab at the top. Once you're done, click the **Commit** button at the bottom to save your description.
+ 
+### Editing an Existing Game
+Want to clean up or add to an existing game? Go to the game's page, and click the edit description link at the bottom.
 
-See the [GitHub Pages documentation](https://help.github.com/articles/using-jekyll-with-pages/) for how to preview your game description.
+Similar to adding a game, use the **Preview** button to see if your formatting looks good and the **Commit** button at the bottom to save your changes.
 
-## Description
-Most of your description will be the actual text for how to play the game. That is written below the header using [Markdown](https://guides.github.com/features/mastering-markdown/), which is an easy way to annotate text.
+## Description Content
+Write up some good instructions for how to play the game. This can be any text that you want! Remember, someone who has never even seen the game before has to be able to understand them! You can markup your text using [Markdown](https://guides.github.com/features/mastering-markdown/#syntax); see [the game description template](https://raw.githubusercontent.com/selassid/games/gh-pages/_drafts/blank.md) for an example of how to do that.
 
 ### Header
 In addition to the instructions for how to play the game, there's also some metadata in a header that you can fill out so folks know when your game is best played and can find it easily. It is the stuff between the `---`s at the top of the file.
 
 * `title` should be the name of your game
-* `alttitles` should be a list of other names people know your game by; this can be skipped
+* `alttitles` should be a list of alternate names people know your game by; this can be left out if there aren't any
 * `tags` should be a list of labels that classify your game; see the next section below
 * `oneliner` should be a short catchy description of the game; maybe people who don't know the name remember what it's like
 * `players` is a more specific range of how many players this game is good for
-* `tools` is a list of physical tools you need to play the game; this can be skipped
+* `tools` is a list of physical tools you need to play the game; this can be left out if there aren't any
 
 Anything that's a "list" above should be in the [YAML list format](https://en.wikipedia.org/wiki/YAML#Lists) like
 ```yaml
@@ -54,7 +58,6 @@ To help people find a game quickly, try to label your game with what broad categ
 * `style-ice breaker` -Game that can be used as an ice breaker
 * `style-silly` -Game that forces people to be in a silly situation
 * `not-safe-for-kids` - This game has some element of safety concern and should not be played with children.
-
 
 ## License
 All game descriptions are copyright the [contributors](https://github.com/selassid/games/graphs/contributors) and are licensed [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/). The Jekyll templates and configuration are licensed [MIT](http://mit-license.org). Anything you contribute here will be released under these terms.
