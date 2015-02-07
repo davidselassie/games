@@ -1,6 +1,7 @@
 ---
 baseurl: /games
-githuburl: https://github.com/selassid/games/blob/gh-pages
+github:
+  repository_url: https://github.com/selassid/games
 collections:
   games:
       output: true
