@@ -1,5 +1,5 @@
 ---
-title: A Thousand Blank Cards
+title: Thousand Blank Cards
 tags:
   - style-party
   - group-small
