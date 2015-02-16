@@ -63,10 +63,8 @@ To help people find a game quickly, try to label your game with what broad categ
 * `group-small` - Best played with <5 people
 * `group-duel` - Best played one-on-one
 * `group-solo` - Best played by yourself
-
 * `no-tools` - No physical tools required to play
 * `no-kids` - Some safety concern so might not be played with small children
-
 * `situation-spirit` - Easy to play as a spirit game or group energizer
 * `situation-hiking` - Easy to play while hiking
 * `situation-roadrip` - Easy to play in a car
@@ -75,13 +73,11 @@ To help people find a game quickly, try to label your game with what broad categ
 * `situation-playground` - Best played on a hard, large surface
 * `situation-sitdown` - Best played at a table deliberately
 * `situation-ongoing` - Played via ongoing encounters throughout normal life
-
 * `style-word` - Includes spelling or puns
 * `style-drinking` - Best played as a drinking game
 * `style-active` - Physically active and requires body movement
 * `style-dare` - Requires players to make up and perform dares; see [dare rules](dares.html)
 * `style-icebreaker` - Good for getting to know new people or names
-
 * `winner-everybody` - Everybody / nobody playing wins this game
 * `winner-team` - Players form teams of multiple people, and a team wins
 * `winner-champion` - Out of all of the starting players, a single person wins
