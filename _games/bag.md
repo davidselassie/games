@@ -1,9 +1,12 @@
 ---
 title: Bag Game
 tags:
-  - group-small
   - group-medium
-  - style-party
+  - group-small
+  - group-duel
+  - situation-party
+  - style-active
+  - winner-champion
 
 oneliner: Show off how flexible you are
 players: 2+
