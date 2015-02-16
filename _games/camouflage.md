@@ -3,10 +3,14 @@ title: Camouflage
 alttitles:
   - Sniper
 tags:
-  - group-small
+  - group-large
   - group-medium
-  - style-playground
+  - group-small
   - no-tools
+  - situation-hiking
+  - situation-playground
+  - style-active
+  - winner-everybody
 
 oneliner: Hide in the bushes
 players: 3+
