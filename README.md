@@ -61,23 +61,30 @@ To help people find a game quickly, try to label your game with what broad categ
 * `group-large` - Best played with 15+ people
 * `group-medium` - Best played with 5+ people
 * `group-small` - Best played with <5 people
-* `group-solo` - Best played alone
+* `group-duel` - Best played one-on-one
+* `group-solo` - Best played by yourself
+
 * `no-tools` - No physical tools required to play
-* `active-game`- Game that is physically active and requires movement
-* `word-game` -Game that is a play on words
-* `thinking-game`-Game that requires intelligence or strategy
-* `dare-game` -Game that requires the particpant to do silly activities similar to a dare
-* `touch-game` - Game that requires physical intimate touch
+* `no-kids` - Some safety concern so might not be played with small children
+
+* `situation-spirit` - Easy to play as a spirit game or group energizer
+* `situation-hiking` - Easy to play while hiking
+* `situation-roadrip` - Easy to play in a car
+* `situation-party` - Easy to play while at a party
+* `situation-field` - Best played on a grassy field
+* `situation-playground` - Best played on a hard, large surface
+* `situation-sitdown` - Best played at a table deliberately
+* `situation-ongoing` - Played via ongoing encounters throughout normal life
+
+* `style-word` - Includes spelling or puns
 * `style-drinking` - Best played as a drinking game
-* `style-spirit` - Best played as a spirit game or a group energizer
-* `style-ongoing` - Has ongoing encounters throughout life
-* `style-party` - Best played in a party
-* `style-playground` - Best played outdoors on a hard surface
-* `style-outdoors` - Best played in a large open space
-* `style-enclosed` - Game that can be played in enclosed spaces such as a car
-* `style-icebreaker` - Game that can be used as an ice breaker
-* `style-silly` - Game that forces people to be in a silly situation
-* `not-safe-for-kids` - This game has some element of safety concern and should not be played with children.
+* `style-active` - Physically active and requires body movement
+* `style-dare` - Requires players to make up and perform dares; see [dare rules](dares.html)
+* `style-icebreaker` - Good for getting to know new people or names
+
+* `winner-everybody` - Everybody / nobody playing wins this game
+* `winner-team` - Players form teams of multiple people, and a team wins
+* `winner-champion` - Out of all of the starting players, a single person wins
 
 If you want to make a new tag, it can't have spaces.
 
