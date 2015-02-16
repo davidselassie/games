@@ -3,9 +3,12 @@ title: Cardboard
 alttitles:
   - Pizza Box
 tags:
-  - group-small
   - group-medium
+  - group-small
+  - situation-party
   - style-drinking
+  - style-dare
+  - winner-everybody
 
 oneliner: Toss quarters and draw shapes
 players: 3+
