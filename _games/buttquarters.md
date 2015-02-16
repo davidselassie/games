@@ -1,11 +1,15 @@
 ---
 title: Butt Quarters
 tags:
-  - active-games
-  - group-small
   - group-medium
-  - style-party
-  - style-silly
+  - group-small
+  - group-duel
+  - no-tools
+  - situation-spirit
+  - situation-party
+  - situation-playground
+  - style-active
+  - winner-champion
 
 oneliner: Drop ten and a half duces
 players: 2 - ~10
