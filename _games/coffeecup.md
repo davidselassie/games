@@ -1,9 +1,14 @@
 ---
 title: Coffee Cup
 tags:
-  - style-enclosed
-  - no-tools
   - group-medium
+  - group-small
+  - group-duel
+  - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - style-word
+  - winner-everybody
 
 oneliner: Discover the word
 players: 2-99
