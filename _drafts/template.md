@@ -4,9 +4,30 @@ title: Some Awesome Game Name
 alttitles: # Optional, you can remove this if there are no alternate names. This is a list of things, where each item is on a new line, indented, and starts with a `-`.
   - Another Name People Call This Game
   - One More Name People Know This Game By
-tags:
-  - style-party
+tags:  # Pick which of the tags are relevant. See the readme for their descriptions.
+  - group-large
   - group-medium
+  - group-small
+  - group-duel
+  - group-solo
+  - no-tools
+  - no-kids
+  - situation-spirit
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - situation-field
+  - situation-playground
+  - situation-sitdown
+  - situation-ongoing
+  - style-word
+  - style-drinking
+  - style-active
+  - style-dare
+  - style-icebreaker
+  - winner-everybody
+  - winner-team
+  - winner-champion
 
 oneliner: A really short one-line description of the game
 players: 2 - ~30
