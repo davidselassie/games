@@ -2,10 +2,14 @@
 title: Accusations
 tags:
   - group-medium
-  - group-large
-  - style-party
-  - style-drinking
+  - group-small
   - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - style-drinking
+  - style-icebreaker
+  - winner-everybody
 
 oneliner: Guess your friends' secrets
 players: ~5+
