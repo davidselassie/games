@@ -2,8 +2,13 @@
 title: Clothes Race
 tags:
   - group-large
-  - style-spirit
   - no-tools
+  - no-kids
+  - situation-spirit
+  - situation-field
+  - situation-playground
+  - style-active
+  - winner-team
 
 oneliner: Make a bridge out of clothes
 players: 15+
