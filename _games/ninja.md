@@ -1,10 +1,15 @@
 ---
 title: Ninja
 tags:
-  - group-small
   - group-medium
-  - style-spirit
+  - group-small
+  - group-duel
   - no-tools
+  - situation-spirit
+  - situation-party
+  - situation-field
+  - style-active
+  - winner-champion
 
 oneliner: Hit people in the hands to get them out
 players: 4+
