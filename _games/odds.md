@@ -3,12 +3,17 @@ title: Odds Game
 alttitles:
   - What Are the Odds?
 tags:
-  - group-small
-  - group-medium
   - group-large
-  - style-party
-  - style-ongoing
+  - group-medium
+  - group-small
+  - group-duel
   - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - situation-ongoing
+  - style-dare
+  - winner-everybody
 
 oneliner: See what the chances are your friend will do a dare
 players: 2
