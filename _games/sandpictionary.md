@@ -1,10 +1,12 @@
 ---
 title: Sand Pictionary
 tags:
-  - group-medium
   - group-large
-  - style-spirit
+  - group-medium
   - no-tools
+  - situation-spirit
+  - style-word
+  - winner-team
 
 oneliner: Guess the sand drawing
 players: ~8+
