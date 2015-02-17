@@ -3,7 +3,9 @@ title: Hydrogen Bar
 tags:
   - group-medium
   - group-small
-  - style-icebreaker
+  - situation-party
+  - winner-everybody
+
 oneliner: Quick group bonding and strategy game
 players: 3+
 tools:
