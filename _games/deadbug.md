@@ -2,12 +2,15 @@
 title: Dead Bug
 tags:
   - group-large
-  - group-small
   - group-medium
+  - group-small
+  - group-duel
   - no-tools
-  - active-game
-  - style-drinking
-  - style-silly
+  - situation-hiking
+  - situation-party
+  - situation-ongoing
+  - winner-everybody
+
 oneliner: Die on your back
 players: 2+
 ---
