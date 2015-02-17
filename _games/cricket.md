@@ -2,8 +2,11 @@
 title: Cricket
 tags:
   - group-small
+  - situation-field
+  - situation-playground
   - style-drinking
-  - style-playground
+  - style-active
+  - winner-team
 
 oneliner: Mack a frisbee into beer bottles
 players: 4
