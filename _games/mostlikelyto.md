@@ -1,11 +1,15 @@
 ---
 title: Most Likely To
 tags:
-  - group-small
   - group-medium
+  - group-small
   - no-tools
-  - style-party
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
   - style-drinking
+  - style-icebreaker
+  - winner-everybody
 
 oneliner: Guess which of your friends is
 players: 3 - ~15
