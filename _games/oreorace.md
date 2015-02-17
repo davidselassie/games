@@ -1,11 +1,14 @@
 ---
 title: Oreo Race
 tags:
-  - group-small
-  - group-medium
   - group-large
-  - style-spirit
-  - style-party
+  - group-medium
+  - group-small
+  - group-duel
+  - no-tools
+  - situation-spirit
+  - situation-party
+  - winner-champion
 
 oneliner: Get Oreos from your forehead to your mouth
 players: 2+
