@@ -1,11 +1,15 @@
 ---
 title: Shot or Text
 tags:
-  - no-tools
-  - style-party
-  - style-drinking
   - group-medium
   - group-small
+  - no-kids
+  - situation-party
+  - situation-sitdown
+  - style-drinking
+  - style-dare
+  - style-icebreaker
+  - winner-everybody
 
 oneliner: Draft text messages and threaten to send them
 players: ~5 to ~10
