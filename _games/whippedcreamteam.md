@@ -10,7 +10,7 @@ tags:
   - situation-party
   - situation-field
   - style-active
-  - winner-everyone
+  - winner-everybody
 
 oneliner: Juggle whipped cream
 players: 2+
