@@ -1,12 +1,16 @@
 ---
 title: Wah
 tags:
-  - group-small
-  - group-medium
   - group-large
-  - style-party
-  - style-spirit
+  - group-medium
+  - group-small
   - no-tools
+  - situation-spirit
+  - situation-hiking
+  - situation-party
+  - situation-field
+  - situation-playground
+  - winner-champion
 
 oneliner: Cut down trees
 players: ~4+
