@@ -1,9 +1,14 @@
 ---
 title: Human Ladder
 tags:
-  - style-party
-  - style-playground
+  - group-large
   - group-medium
+  - group-small
+  - situation-party
+  - situation-field
+  - situation-playground
+  - style-active
+  - winner-team
 
 oneliner: Climb on your friends to place a cup as far as possible
 players: 4 - ~10
