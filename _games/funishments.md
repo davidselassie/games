@@ -1,10 +1,12 @@
 ---
 title: Funishments
 tags:
-  - groups-large
-  - style-silly
-  - dare-game
-  - style-party
+  - group-medium
+  - group-small
+  - situation-party
+  - situation-sitdown
+  - style-dare
+  - winner-everybody
 
 oneliner: Part fun, part punishment
 players: 4+
