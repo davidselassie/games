@@ -1,10 +1,15 @@
 ---
 title: Electric Broom
 tags:
-  - style-playground
   - group-medium
-  - group-large
-  - style-icebreaker
+  - group-small
+  - group-duel
+  - situation-spirit
+  - situation-party
+  - situation-field
+  - situation-playground
+  - style-active
+  - winner-champion
 
 oneliner: Hold hands and pull people into a broom
 players: 3 - ~30
