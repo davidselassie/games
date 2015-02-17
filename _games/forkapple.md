@@ -1,10 +1,12 @@
 ---
 title: Fork-Apple
 tags:
-  - group-small
   - group-medium
-  - style-party
-  - not-safe-for-kids
+  - group-small
+  - group-solo
+  - no-kids
+  - situation-party
+  - winner-everybody
 
 oneliner: See how many forks you can stick in an apple
 players: 2 - ~10
