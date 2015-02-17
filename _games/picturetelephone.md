@@ -4,8 +4,10 @@ alttitles:
   - Telestrations
   - Writey Drawey
 tags:
-  - style-party
   - group-medium
+  - situation-party
+  - situation-sitdown
+  - winner-everybody
 
 oneliner: Translate sentences into drawings and back
 players: ~5 - ~20
