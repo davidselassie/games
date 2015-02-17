@@ -1,8 +1,15 @@
 ---
 title: Secret Service
 tags:
-  - style-ongoing
+  - group-medium
+  - group-small
   - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - situation-ongoing
+  - style-active
+  - winner-everybody
 
 oneliner: Jump on top of the President
 players: any number of
