@@ -1,9 +1,14 @@
 ---
 title: Contact
 tags:
-  - style-enclosed
-  - word-games
+  - group-medium
+  - group-small
+  - group-duel
   - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - style-word
+  - winner-everybody
 
 oneliner: Guess a secret word letter-by-letter by asking questions
 players: 2 - ~12
