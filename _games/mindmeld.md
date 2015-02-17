@@ -1,12 +1,16 @@
 ---
 title: Mind Meld
 tags:
-  - group-small
   - group-medium
-  - style-party
+  - group-small
+  - group-duel
   - no-tools
-  - style-enclosed
-  - style-icebreaker
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - situation-sitdown
+  - style-word
+  - winner-everybody
 
 oneliner: Try to read someone else's mind
 players: 2+
