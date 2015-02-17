@@ -1,10 +1,12 @@
 ---
 title: Salt Roulette
 tags:
-  - style-party
-  - style-drinking
-  - group-small
   - group-medium
+  - group-small
+  - situation-party
+  - situation-sitdown
+  - style-drinking
+  - winner-everybody
 
 oneliner: Guess who just had a shot of salt
 players: 3 to ~10
