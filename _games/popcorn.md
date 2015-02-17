@@ -1,10 +1,13 @@
 ---
 title: Popcorn
 tags:
-  - style-party
-  - group-small
   - group-medium
+  - group-small
   - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - winner-everybody
 
 oneliner: A really short one-line description of the game
 players: 2 - ~20
