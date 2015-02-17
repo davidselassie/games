@@ -2,7 +2,10 @@
 title: Ro Sham Posse
 tags:
   - group-large
-  - style-spirit
+  - no-tools
+  - situation-spirit
+  - situation-party
+  - winner-champion
 
 oneliner: Cheer on the ro sham champion
 players: 10+
