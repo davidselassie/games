@@ -1,9 +1,12 @@
 ---
 title: Thousand Blank Cards
 tags:
-  - style-party
-  - group-small
   - group-medium
+  - group-small
+  - situation-party
+  - situation-sitdown
+  - style-dare
+  - winner-everybody
 
 oneliner: Make up a game entirely from scrap paper
 players: 2 - ~15
