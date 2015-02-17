@@ -1,10 +1,13 @@
 ---
 title: Stump
 tags:
-  - group-small
   - group-medium
-  - style-party
+  - group-small
+  - group-duel
+  - no-kids
+  - situation-party
   - style-drinking
+  - winner-champion
 
 oneliner: A drinking game with hammers
 players: 2 to ~8
