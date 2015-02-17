@@ -1,10 +1,12 @@
 ---
 title: Miniature Tanks
 tags:
-  - group-medium
   - group-large
-  - style-spirit
+  - group-medium
   - no-tools
+  - situation-spirit
+  - situation-party
+  - winner-everybody
 
 oneliner: Never stop being a tank
 players: ~5+
