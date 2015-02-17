@@ -2,7 +2,10 @@
 title: Scramble
 tags:
   - group-medium
-  - style-playground
+  - situation-field
+  - situation-playground
+  - style-active
+  - winner-everybody
 
 oneliner: Swap spots behind someone's back
 players: 5 - 15
