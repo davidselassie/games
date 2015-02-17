@@ -1,11 +1,14 @@
 ---
 title: Die Game
 tags:
-  - group-small
-  - group-medium
   - group-large
-  - style-party
-  - style-ongoing
+  - group-medium
+  - group-small
+  - group-duel
+  - situation-party
+  - situation-ongoing
+  - style-dare
+  - winner-everybody
 
 oneliner: Dare friends
 players: one on one
