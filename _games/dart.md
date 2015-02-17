@@ -1,8 +1,8 @@
 ---
 title: Dart Game
 tags:
-  - style-ongoing
   - no-tools
+  - situation-ongoing
 
 oneliner: Stun your friends with blowdarts
 players: any number of
