@@ -5,7 +5,11 @@ alttitles:
   - Bowl Game
 tags:
   - group-medium
-  - style-party
+  - group-small
+  - situation-party
+  - situation-sitdown
+  - style-word
+  - winner-team
 
 oneliner: Taboo, charades, then a single word
 players: ~5 - ~20
