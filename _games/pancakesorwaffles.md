@@ -1,10 +1,14 @@
 ---
 title: Pancakes or Waffles
 tags:
-  - no-tools
-  - group-small
   - group-medium
-  - style-party
+  - group-small
+  - no-tools
+  - situation-hiking
+  - situation-roadrip
+  - situation-party
+  - situation-sitdown
+  - winner-everybody
 
 oneliner: Vote things out of existence
 players: 2 to ~20
