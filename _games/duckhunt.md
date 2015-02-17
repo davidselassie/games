@@ -1,9 +1,14 @@
 ---
 title: Duck Hunt
 tags:
-  - group-medium
   - group-large
-  - style-spirit
+  - group-medium
+  - situation-spirit
+  - situation-field
+  - situation-playground
+  - style-active
+  - winner-everybody
+  - winner-champion
 
 oneliner: Throw frisbees at ducks
 players: ~8+
