@@ -8,7 +8,7 @@ tags:
   - situation-party
   - winner-champion
 
-oneliner: A really short one-line description of the game
+oneliner: Make your opponent laugh at your floppy limp face
 players: 2
 ---
 ## Gameplay
