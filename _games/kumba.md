@@ -9,7 +9,7 @@ tags:
   - situation-party
   - winner-champion
 
-oneliner: A really short one-line description of the game
+oneliner: Pass the energy while chanting
 players: ~5 - ~30
 ---
 ## Setup
