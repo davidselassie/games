@@ -13,7 +13,7 @@ tags:
 oneliner: Guess a secret word letter-by-letter by asking questions
 players: 2 - ~12
 ---
-## Gameplay
+# Gameplay
 The purpose of this game is to guess the it player's secret word. The it player picks a noun but no proper nouns and provides the first letter of their noun as a starting hint.
 
 The other players then describe a word that starts with the same letter as hinted. The it player then states 'No it is not X." X is any word that starts with the hinted letter and fits the description of the clue.
@@ -24,7 +24,7 @@ For each consecutive letter, the word choices are more limited to the letters th
 
 This continues until other players guess the word or players eliminates all letters.
 
-## Example 1
+# Example 1
 The it player picks the word sheep and hints that the word starts with S.
 
 Player 1 asks: Is it an animal that slithers?
@@ -43,7 +43,7 @@ It player could also answer, no it is not sea, no it is not sandcrabs, no it is 
 
 If the player cannot get the word, he or she has to reveal the second letter of the word.  As a fail safe, two players must both know what the word is from the clue.
 
-## Example 2
+# Example 2
 The word is sheep.
 
 Player 1 asks: Is it a skin encased meat (referencing sausage)
@@ -56,7 +56,7 @@ Player 3: Counts 1-2-3 and both player 1 and player 2 say their word at the same
 
 If the word is the same, the it player reveals their next letter. If the word is different, the game continues.
 
-## Example 3
+# Example 3
 The word is sheep.
 
 Player 1 asks: Is it a skin encased meat.
@@ -73,7 +73,7 @@ or
 
 Player 1: "Sausage" and Player 2: "Schlong"  Different words mean the contact is invalid and the it player does not give another clue.
 
-## Example 4
+# Example 4
 The word is sheep and the it player has released the letters S and H.
 Player 1: Does it float on the sea?
 It Player: No, it is not a SHip.

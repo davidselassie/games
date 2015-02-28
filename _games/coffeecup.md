@@ -13,7 +13,7 @@ tags:
 oneliner: Discover the word
 players: 2-99
 ---
-## Gameplay
+# Gameplay
 Main player picks a verb or a verb phase.
 Other players ask questions replacing the verb with Coffee Cup and the main player responds with yes, no, or elaborates if the answer is not completely yes or no.
 

@@ -12,12 +12,12 @@ tags:
 oneliner: A really short one-line description of the game
 players: 2 - ~20
 ---
-## Gameplay
+# Gameplay
 The goal of this game is for everyone to work together to say the alphabet from A to Z. No one playing is allowed to communicate in any other way other than saying the next letter. If any two people speak at the same time, everyone has to start over!
 
 How do you know when to speak? Feel the vibes!
 
-## Variations
+# Variations
 Instead of enumerating the alphabet, try other things:
 
 - Count to some number.

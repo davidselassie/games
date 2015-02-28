@@ -43,16 +43,16 @@ One tricky thing is that a blank line is required for a new paragraph. Two adjac
 
 Here's a sample game description:
 
-## Setup
+# Setup
 Describe how to setup the field or any perparations you'll need to make!
 
-## Gameplay
+# Gameplay
 How do you play the game? What happens during each round?
 
-## Winners
+# Winners
 How do you win the game? Do you hog-tie everyone else?
 
-## Variations
+# Variations
 Describe some cool variations:
 
 - Maybe play with your eyes closed.

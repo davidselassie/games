@@ -18,11 +18,11 @@ tools:
   - Internet
   - Projector or big monitor
 ---
-## Prelude
+# Prelude
 Setup monitor / projector so that everyone can see it. Get drunk.
 
-## Make Topics
+# Make Topics
 Cut up the paper into small slips. Everyone writes a few topics on separate slips and puts them in the bowl. They can be absolutely anything: "lady gaga", "1943", "yams".
 
-## Present
+# Present
 Someone is picked to present. They search the internet for "TOPIC ppt" and choose the first PowerPoint presentation that is returned. Download it and then immediately give the presentation in 2 minutes. Remove the topic from the bowl once the presentation is done.

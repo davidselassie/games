@@ -16,12 +16,12 @@ tools:
   - One cup per team
   - Tape or something to mark a base line
 ---
-## Setup
+# Setup
 Play in a large room or similarly sized flat area. At one end, draw out a base line that is 10' long. Make sure there's at least 15' - 20' of space out from the base line.
 
 People should form teams of two and be given a single cup.
 
-## Gameplay
+# Gameplay
 Each team takes a turn attemping to place their cup as far as possible from the base line and then return both players fully behind the baseline. When every team has attempted, the team with the farthest cup wins!
 
 During your turn, the two people are only allowed a cumulative 3 points of contact on the ground beyond the base line. Only hands and feet are allowed as points of contact. As soon as someone touches the ground, that counts as a point of contact, and that point can't be moved or shimmied. It can be fully broken, but touching the ground again afterwards counts as adding a *new* point of contact.
@@ -32,5 +32,5 @@ Just climbing over your teammate and placing the cup _does not end your turn_, t
 
 If you fall over or make more than 3 points of contact, your turn is disqualified.
 
-## Variations
+# Variations
 - Play in teams of three people with 5 points of contact allowed.

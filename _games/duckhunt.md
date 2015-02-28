@@ -16,7 +16,7 @@ tools:
   - One frisbee per person
   - Some sort of field
 ---
-## Gameplay
+# Gameplay
 About half the group are picked to be "ducks." The other half are "hunters." Hunters each get a frisbee. Everyone lines up on one sideline of a field, alternating hunter and duck.
 
 When someone yells "go," the ducks are released and the hunters count to 5. Ducks have to get away from the hunters as fast as possible, but:
