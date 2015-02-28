@@ -2,66 +2,58 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} - Games</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/custom.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/site.css">
   </head>
 
   <body>
-    <div class="container">
+    {% include header.html %}
 
-      <div class="page-header">
-        <ol class="breadcrumb">
-          <li><a href="{{ site.baseurl }}/">Games!</a></li>
-          <li class="active">{{ page.title }}</li>
-        </ol>
+    <article>
+      {% if page.title %}
+      <h1>
+        {{ page.title }}
+        {% if page.alttitles %}
+        <small>AKA {{ page.alttitles | join:', ' }}</small>
+        {% endif %}
+      </h1>
+      {% endif %}
 
-        <h1>{{ page.title }}
-          {% if page.alttitles %}
-          <small>AKA {{ page.alttitles | join:', ' }}</small>
-          {% endif %}
-        </h1>
-        <p class="lead">{{ page.oneliner }}</p>
-      </div>
+      {% if page.players %}
+      <section>
+        <h1>Players</h1>
+        <p>For {{ page.players }} players.</p>
+      </section>
+      {% endif %}
 
-      <div class="row">
-        {% if page.tags %}
-        <div class="col-md-4">
-          <h2>Tags</h2>
-          <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
-          {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/?tag={{ tag }}"><span class="label label-primary">{{ tag }}</span></a>
+      {% if page.tools %}
+      <section>
+        <h1>Tools</h1>
+        <ul>
+          {% for tool in page.tools %}
+          <li>{{ tool }}</li>
           {% endfor %}
-        </div>
-        {% endif %}
+        </ul>
+      </section>
+      {% endif %}
 
-        {% if page.players %}
-        <div class="col-md-4">
-          <h2>Players</h2>
-          For {{ page.players }} players.
-        </div>
-        {% endif %}
-
-        {% if page.tools %}
-        <div class="col-md-4">
-          <h2>Tools</h2>
-          <ul>
-            {% for tool in page.tools %}
-            <li>{{ tool }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-      </div>
-
-      <div>
+      <section>
         {{ content }}
-      </div>
+      </section>
 
-      {% include footer.html %}
+      {% if page.tags %}
+      <section>
+        <h1>Tags</h1>
+        <ul class="tab-list">
+          {% for tag in page.tags %}
+          <li><a href="{{ site.baseurl }}/?tag={{ tag }}">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endif %}
+    </article>
 
-    </div>
+    {% include footer.html %}
   </body>
 </html>

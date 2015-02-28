@@ -1,12 +1,10 @@
-<footer class="page-footer">
-  <div class="container">
-    <ul class="footer-links breadcrumb text-muted">
-      {% if page.relative_path %}
-      <li><a href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.relative_path }}">Edit</a> this game</li>
-      {% endif %}
-      <li><a href="{{ site.github.repository_url }}">Learn</a> how to contribute</li>
-      <li>© {{ 'now' | date:'%Y' }} <a href="{{ site.github.repository_url }}/graphs/contributors">People</a> under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></li>
-      <li>Hosted by <a href="https://pages.github.com/">GitHub Pages</a></li>
-    </ul>
-  </div>
+<footer>
+  <ul class="tab-list">
+    {% if page.relative_path %}
+    <li><a href="{{ site.github.repository_url }}/edit/gh-pages/{{ page.relative_path }}">Edit</a> this game</li>
+    {% endif %}
+    <li><a href="{{ site.github.repository_url }}">Learn</a> how to contribute</li>
+    <li>© {{ 'now' | date:'%Y' }} <a href="{{ site.github.repository_url }}/graphs/contributors">People</a> under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a></li>
+    <li>Hosted by <a href="https://pages.github.com/">GitHub Pages</a></li>
+  </ul>
 </footer>

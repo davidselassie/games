@@ -1,0 +1,8 @@
+<a href="{{ site.baseurl }}{{ game.url }}">
+  <li>
+    {{ game.title }}
+    {% if game.oneliner %}
+    <summary>{{ game.oneliner }}</summary>
+    {% endif %}
+  </li>
+</a>

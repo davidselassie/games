@@ -5,14 +5,10 @@
   <head>
     <meta charset="utf-8">
     <title>Games</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/custom.css">
-    <base href="{{ site.baseurl }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/site.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.7/angular.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script>
       var gameListApp = angular.module('gameListApp', []).config(function ($locationProvider) {
         $locationProvider.html5Mode(true);
@@ -37,56 +33,17 @@
   </head>
 
   <body ng-controller="FilterController">
-    <div class="container">
+    {% include header.html %}
 
-      <div class="page-header">
-        <ol class="breadcrumb">
-          <li class="active">
-            <a ng-cloak ng-show="getFilterTag()" href="{{ site.baseurl }}/">Games!</a>
-            <span ng-hide="getFilterTag()">Games!</span>
-          </li>
+    <nav>
+      <ul class="block-l">
+        {% assign sorted_games = (site.games | sort:'title') %}
+        {% for game in sorted_games %}
+        {% include block.html %}
+        {% endfor %}
+      </ul>
+    </nav>
 
-          <li ng-cloak class="dropdown" ng-class="{filtercrumb: !getFilterTag()}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-              <span class="glyphicon glyphicon-filter" aria-hidden="true"></span>
-              <span class="glyphicon glyphicon-tags" aria-hidden="true"></span>
-              {% raw %}
-              <span style="margin-left: 0.25em;">{{ getFilterTag() }}</span>
-              {% endraw %}
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu" role="menu">
-              <!-- All links require target="_self" to actually cause a page reload when using $location. -->
-              <!-- When using GitHub Pages, we have to explicitly use the baseurl. -->
-              <!-- Horrible hack to get sorted list of unique tags in the "games" collection. Map out the tag arrays, join by spaces twice to flatten the array and concat, then split back into an array and sort. -->
-              {% assign sorted_tags = (site.games | map:'tags' | join | join | split:' ' | sort) %}
-              {% assign last_tag = false %}
-              {% for tag in sorted_tags %}
-              {% if tag != last_tag %}
-              <li>
-                <a href="{{ site.baseurl }}/?tag={{ tag }}" target="_self">
-                  {{ tag }}
-                </a>
-              </li>
-              {% assign last_tag = tag %}
-              {% endif %}
-              {% endfor %}
-            </ul>
-          </li>
-
-        </ol>
-      </div>
-
-      {% assign sorted_games = (site.games | sort:'title') %}
-      {% for game in sorted_games %}
-      <h2 ng-cloak ng-show="shouldShow({{ game.tags | jsonify | escape }})">
-        <a href="{{ site.baseurl }}{{ game.url }}" target="_self">{{ game.title }}</a>
-        <p class="lead hidden-xs">{{ game.oneliner }}</p>
-      </h2>
-      {% endfor %}
-
-      {% include footer.html %}
-
-    </div>
+    {% include footer.html %}
   </body>
 </html>
