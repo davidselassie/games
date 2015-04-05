@@ -11,7 +11,7 @@ tags:
   - style-active
   - winner-team
 
-oneliner: A team oriented game of charades. Beat the other team solving all the clues
+oneliner: Team relay-race charades
 players: 8 - ~30
 ---
 
