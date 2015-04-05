@@ -9,7 +9,7 @@ tags:
   - situation-party
   - winner-everybody
 
-oneliner: A really short one-line description of the game
+oneliner: Work together to without speaking
 players: 2 - ~20
 ---
 # Gameplay
