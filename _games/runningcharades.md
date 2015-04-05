@@ -13,7 +13,7 @@ tags:
 
 oneliner: A team oriented game of charades. Beat the other team solving all the clues
 players: 8 - ~30
-
+---
 
 # Setup
 Create a list of ten clues, usually oriented around a theme for simpler play. Set up the groups in teams of 4-7 people.
