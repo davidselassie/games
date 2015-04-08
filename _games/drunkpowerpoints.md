@@ -9,7 +9,7 @@ tags:
   - style-drinking
   - winner-everybody
 
-oneliner: Present on everything
+oneliner: Give a presentation on a random topic
 players: ~3+
 tools:
   - Paper

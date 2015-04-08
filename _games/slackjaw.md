@@ -8,7 +8,7 @@ tags:
   - situation-party
   - winner-champion
 
-oneliner: Make your opponent laugh at your floppy limp face
+oneliner: Don't laugh at a limp face
 players: 2
 ---
 # Gameplay

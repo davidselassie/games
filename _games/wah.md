@@ -12,7 +12,7 @@ tags:
   - situation-playground
   - winner-champion
 
-oneliner: Cut down trees
+oneliner: Pass the energy and cut down trees
 players: ~4+
 ---
 # Gameplay

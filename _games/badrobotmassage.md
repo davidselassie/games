@@ -9,7 +9,7 @@ tags:
   - winner-everybody
   - winner-team
 
-oneliner: Identify someone by only touching them with wooden spoons
+oneliner: Guess someone blindfold with wooden spoons
 players: 3 - ~7
 tools:
   - 2 wooden spoons

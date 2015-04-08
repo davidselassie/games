@@ -10,7 +10,7 @@ tags:
   - style-word
   - winner-everybody
 
-oneliner: Discover the word
+oneliner: Guess a verb by asking questions
 players: 2-99
 ---
 # Gameplay

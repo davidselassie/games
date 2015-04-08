@@ -11,7 +11,7 @@ tags:
   - style-icebreaker
   - winner-everybody
 
-oneliner: Guess your friends' secrets
+oneliner: Accuse your friends of embarassing things
 players: ~5+
 ---
 # Gameplay

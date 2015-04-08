@@ -8,7 +8,7 @@ tags:
   - style-active
   - winner-team
 
-oneliner: Mack a frisbee into beer bottles
+oneliner: Throw a frisbee at bottles
 players: 4
 tools:
   - Four empty beer bottles

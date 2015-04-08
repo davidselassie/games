@@ -8,7 +8,7 @@ tags:
   - style-active
   - winner-champion
 
-oneliner: Show off how flexible you are
+oneliner: Pick up a bag with only your mouth
 players: 2+
 tools:
   - One paper bag

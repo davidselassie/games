@@ -12,7 +12,7 @@ tags:
   - style-active
   - winner-everybody
 
-oneliner: Hide in the bushes
+oneliner: Find people hiding in the bushes
 players: 3+
 tools:
   - Arena with lots of cover (e.g. bushes, trees, cars)
