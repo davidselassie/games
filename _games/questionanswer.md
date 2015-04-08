@@ -24,3 +24,5 @@ Now on the count of three, the question asker asks their question, then the answ
 # Forms
 * _Why_ is the moon round? _Because_ my dog ate it.
 * _When_ should I go to bed? _When_ the cows come home.
+* _What is_ my weakness? _It is_ new reality TV show.
+* _How_ do you run a business? _By_ the hair of my chinny chin chin.
