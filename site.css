@@ -9,14 +9,6 @@ body {
 
 }
 header {
-    border-bottom: 2px solid #135A93;
-    margin: -20px -50px 30px -40px;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -webkit-transform-origin: left bottom;
-    -moz-transform-origin: left bottom;
 }
 footer {
     text-align: center;
@@ -40,10 +32,18 @@ p {
 }
 
 header h1 {
-    margin: 0px;
+    position: relative;
+    font-family: HelveticaNeue-UltraLight, Helvetica-Light, HelveticaNeue, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 110px;
-}
+    border-bottom: 2px solid #135A93;
+    margin: -20px -50px 20px -40px;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform-origin: left bottom;}
 h1 small {
     font-weight: 100;
     color: lightgray;
@@ -54,16 +54,21 @@ article {
     display: flex;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 article h1 {
     margin: 0px 0px 30px 0px;
     width: 100%;
     font-weight: 100;
     font-size: 68px;
+    color: #555555;
 }
 
 section {
     margin: 0px 30px 0px 0px;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
 }
 section h1 {
     margin: 0px 0px 30px 0px;
