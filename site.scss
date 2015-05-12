@@ -1,18 +1,6 @@
 ---
 ---
-
-$primary-color: #FF433A;
-$secondary-color: #931713;
-
-$primary-h: #333333;
-$secondary-h: #555555;
-$primary-text: #888888;
-$secondary-text: #BBBBBB;
-
-$primary-bg: #FFFFFF;
-$secondary-bg: #EEEEEE;
-
-$base-font-size: 26;
+@import 'colors';
 
 @mixin flex-wrap($args) {
     -webkit-flex-wrap: $args;
