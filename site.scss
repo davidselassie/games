@@ -1,0 +1,222 @@
+---
+---
+
+$primary-color: #3AA0FF;
+$secondary-color: #135A93;
+
+$primary-h: #333333;
+$secondary-h: #555555;
+$primary-text: #888888;
+$secondary-text: #BBBBBB;
+
+$primary-bg: #FFFFFF;
+$secondary-bg: #EEEEEE;
+
+$base-font-size: 26;
+
+@mixin flex-wrap($args) {
+    -webkit-flex-wrap: $args;
+    -moz-flex-wrap: $args;
+    flex-wrap: $args;
+}
+
+@mixin flex-direction($args) {
+    -webkit-flex-direction: $args;
+    -moz-flex-direction: $args;
+    flex-direction: $args;
+}
+
+
+@mixin flex-grow($args) {
+    -webkit-flex-grow: $args;
+    -moz-flex-grow: $args;
+    flex-grow: $args;
+}
+
+@mixin justify-content($args) {
+    -webkit-justify-content: $args;
+    -moz-justify-content: $args;
+    justify-content: $args;
+}
+
+@mixin transform($args) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    transform: $args;
+}
+
+@mixin transform-origin($args) {
+    -webkit-transform-origin: $args;
+    -moz-transform-origin: $args;
+    transform-origin: $args;
+}
+
+@mixin transition($args) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    transition: $args;
+}
+
+body {
+    font-family: HelveticaNeue, Helvetica, sans-serif;
+    font-weight: 400;
+    text-rendering: optimizelegibility;
+    font-size: 26px;
+    color: $primary-text;
+    background-color: $primary-bg;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+header {
+    h1 {
+        position: relative;
+        font-family: HelveticaNeue-UltraLight, Helvetica-Light, HelveticaNeue, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 110px;
+        border-bottom: 2px solid $secondary-color;
+        left: -40px;
+        margin: -20px -60px 20px 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        @include transform(rotate(-3deg));
+        @include transform-origin(left bottom);
+    }
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+}
+
+hr {
+    border: 0px;
+    border-bottom: 2px solid $secondary-color;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0px 0px 20px 0px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+}
+
+article {
+    display: -webkit-flex;
+    display: flex;
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+
+    h1 {
+        margin: 0px 0px 30px 0px;
+        width: 100%;
+        font-weight: 100;
+        font-size: 68px;
+        color: $primary-h;
+
+        small {
+            font-weight: 100;
+            color: $secondary-text;
+        }
+    }
+}
+
+section {
+    margin: 0px 30px 0px 0px;
+    @include flex-grow(1);
+
+    h1 {
+        margin: 0px 0px 30px 0px;
+        font-size: 41px;
+        font-weight: 200;
+        color: $secondary-h;
+    }
+
+    h2 {
+        margin: 0px 0px 20px 0px;
+        font-weight: 200;
+        color: $secondary-h;
+    }
+
+    h3 {
+        margin: 0px 0px 20px 0px;
+        font-weight: 200;
+        color: $secondary-h;
+    }
+}
+
+footer {
+    text-align: center;
+    color: $secondary-text;
+
+    ul {
+        li {
+            display: inline-block;
+        }
+
+        li:before {
+            content: "| ";
+        }
+
+        li:first-child:before {
+            content: "";
+        }
+    }
+}
+
+nav.block {
+    ul {
+        margin: 0px;
+        padding-right: 20px;
+        display: -webkit-flex;
+        display: flex;
+        @include flex-wrap(wrap);
+        @include justify-content(flex-start);
+
+        a {
+            margin: 0px 20px 20px 0px;
+            border: 2px solid $secondary-color;
+            padding: 10px;
+            width: 200px;
+            @include transition(background 0.25s);
+        }
+
+        a:hover {
+            background: $secondary-bg;
+        }
+
+        li {
+            display: block;
+            position: relative;  /* Needed so child summary elements are positioned relative to this parent. */
+            margin: 0px;
+            height: 200px;  /* Needs explicit height because summary is abs positioned. */
+
+            summary {
+                color: $primary-text;
+                position: absolute;
+                text-align: right;
+                bottom: 0px;
+                right: 0px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 600px) {
+    nav.block {
+        ul {
+            @include flex-direction(column);
+            @include flex-wrap(nowrap);
+
+            a {
+                width: auto;
+                @include flex-grow(1);
+            }
+        }
+    }
+}

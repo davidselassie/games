@@ -35,8 +35,8 @@
   <body ng-controller="FilterController">
     {% include header.html %}
 
-    <nav>
-      <ul class="block-l">
+    <nav class="block">
+      <ul>
         {% assign sorted_games = (site.games | sort:'title') %}
         {% for game in sorted_games %}
         {% include block.html %}
