@@ -1,8 +1,8 @@
 ---
 ---
 
-$primary-color: #3AA0FF;
-$secondary-color: #135A93;
+$primary-color: #FF433A;
+$secondary-color: #931713;
 
 $primary-h: #333333;
 $secondary-h: #555555;
@@ -169,6 +169,13 @@ footer {
 }
 
 nav.block {
+    h2 {
+        margin: 0px 0px 30px 0px;
+        font-size: 41px;
+        font-weight: 200;
+        color: $secondary-h;
+    }
+
     ul {
         margin: 0px;
         padding-right: 20px;
