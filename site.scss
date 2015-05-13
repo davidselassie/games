@@ -59,16 +59,19 @@ body {
 }
 
 header {
+    margin: -20px -20px 0px -20px;
+    overflow: hidden;
+
     h1 {
         position: relative;
         font-family: HelveticaNeue-UltraLight, Helvetica-Light, HelveticaNeue, Helvetica, sans-serif;
         font-weight: 100;
         font-size: 100px;
         border-bottom: 2px solid $secondary-color;
-        left: -40px;
-        margin: -20px 0px 20px 0px;
+        left: -20px;
+        margin: 0px 0px 20px 0px;
+        padding-right: 50px;
         white-space: nowrap;
-        overflow: hidden;
         @include transform(rotate(-3deg));
         @include transform-origin(left bottom);
     }
