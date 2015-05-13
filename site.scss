@@ -49,7 +49,8 @@ body {
     font-family: HelveticaNeue, Helvetica, sans-serif;
     font-weight: 400;
     text-rendering: optimizelegibility;
-    font-size: 26px;
+    font-size: 20px;
+    letter-spacing: 0.4px;
     color: $primary-text;
     background-color: $primary-bg;
     margin: 0px;
@@ -62,7 +63,7 @@ header {
         position: relative;
         font-family: HelveticaNeue-UltraLight, Helvetica-Light, HelveticaNeue, Helvetica, sans-serif;
         font-weight: 100;
-        font-size: 110px;
+        font-size: 100px;
         border-bottom: 2px solid $secondary-color;
         left: -40px;
         margin: -20px -60px 20px 0px;
@@ -89,8 +90,6 @@ li {
 
 p {
     margin: 0px 0px 20px 0px;
-    line-height: 40px;
-    letter-spacing: 0.4px;
 }
 
 article {
@@ -100,10 +99,10 @@ article {
     @include justify-content(center);
 
     h1 {
-        margin: 0px 0px 30px 0px;
+        margin: 0px 0px 10px 0px;
         width: 100%;
         font-weight: 100;
-        font-size: 68px;
+        font-size: 55px;
         color: $primary-h;
 
         small {
@@ -119,7 +118,7 @@ section {
 
     h1 {
         margin: 0px 0px 30px 0px;
-        font-size: 41px;
+        font-size: 35px;
         font-weight: 200;
         color: $secondary-h;
     }
@@ -166,7 +165,7 @@ nav.block {
 
     ul {
         margin: 0px;
-        padding-right: 20px;
+        padding: 0px;
         display: -webkit-flex;
         display: flex;
         @include flex-wrap(wrap);
