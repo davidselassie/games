@@ -66,7 +66,7 @@ header {
         font-size: 100px;
         border-bottom: 2px solid $secondary-color;
         left: -40px;
-        margin: -20px -60px 20px 0px;
+        margin: -20px 0px 20px 0px;
         white-space: nowrap;
         overflow: hidden;
         @include transform(rotate(-3deg));
@@ -164,7 +164,7 @@ nav.block {
     }
 
     ul {
-        margin: 0px;
+        margin: 0px -20px 0px 0px;
         padding: 0px;
         display: -webkit-flex;
         display: flex;
