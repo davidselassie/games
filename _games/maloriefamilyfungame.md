@@ -2,6 +2,7 @@
 title: Malorie Family Fun Game
 alttitles:
   - Celebrity
+  - Fishbowl
   - Bowl Game
 tags:
   - group-medium
