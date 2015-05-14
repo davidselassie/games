@@ -1,4 +1,4 @@
-<a href="{{ site.baseurl }}{{ game.url }}">
+<a target="_self" href="{{ site.baseurl }}{{ game.url }}" ng-show="shouldShow({{ game.tags | jsonify | xml_escape }})">
   <li>
     {{ game.title }}
     {% if game.oneliner %}
