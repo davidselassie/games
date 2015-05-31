@@ -8,25 +8,36 @@ tags:
   - situation-party
   - winner-everybody
 
-oneliner: Cheer someone on to complete random tasks
-players: ~5 - ~30
+oneliner: Cheer someone on to complete tasks
+players: ~5 - ~20
 ---
 # Setup
 One person is picked to be _It_.
-They leave the room and everyone else in the group comes up with three _tasks_ for It to complete.
+Everyone else is the _crowd_.
+They leave the room and the crowd comes up with three _tasks_ for It to complete.
 
-Tasks should be physical actions:
+Tasks should be physical actions and have specific and deliberate steps:
 
-- Take the milk out of the fridge and pour a little in a cup.
-- Build a tower out of the pillows in the room.
-- Flush some cinnamon down the toilet.
+- Walk to the fridge, open it, take the milk out, carry that to the cups, pick up the one red cup, pour a glass of milk.
+- Walk to the light switch of the room, flick it on and off repeatedly.
+- Take off your shirt.
 
-Once three tasks are agreed upon, It is invited back into the room, but nobody tells them what the tasks are.
+Once three specific tasks and an order for them to be completed are agreed upon, It is invited back into the room with wild applause.
 
 # Gameplay
-When It returns to the room, everyone is silent.
-The only way the group communicates what tasks It should perform is by cheering them on.
-Cheer "yay" loudly when It starts moving towards or performing parts of one of the tasks to reinforce that behavior.
-Become silent if the action It is currently doing does not help them complete a task.
+When It returns to the room, the crowd becomes silent.
+The only way the crowd communicates what tasks It should perform is by cheering them on.
+The crowd should give varying levels of reinforcement to It to guide them:
 
-Once It has completed a task, everyone applauds and guides It to complete the next task.
+- Clap politely if they face or look at where they need to go.
+- Clap vigorously if they start reaching towards any objects they need.
+- Cheer wildly when they start performing the right action.
+
+The crowd immediately becomes totally silent if It starts to stray from the steps of the task.
+Expect lots of sudden cheering mixed with complete silence as It figures out the task.
+
+It's job is made easier if they are very deliberate about exploring.
+They should probe out different directions and wait for feedback, and pretend to touch objects to see if the crowd reacts.
+
+Once It has completed a task, everyone holds up the number of fingers of tasks remaining.
+They then are guided to the next task in order.
