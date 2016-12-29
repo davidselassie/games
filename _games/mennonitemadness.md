@@ -8,7 +8,7 @@ tags:
   - style-icebreaker
   - winner-champion
 
-oneliner: Who knows a friend best?
+oneliner: Write numbers and roll dice as fast as you can
 players: 3 - ~8
 tools:
   - One Pencil
