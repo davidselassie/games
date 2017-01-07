@@ -44,3 +44,4 @@ When a prey hides, they have to be able to see some part of the hunter at all ti
 
 # Variations
 * When a prey is caught, they put a foot by the hunter's piviot foot and also help them look for people.
+* Play in white full-body painters suits in the snow.
