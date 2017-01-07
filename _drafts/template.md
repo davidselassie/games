@@ -48,15 +48,19 @@ You also need a blank line before lists.
 Here's a sample game description:
 
 # Setup
+
 Describe how to setup the field or any perparations you'll need to make!
 
 # Gameplay
+
 How do you play the game? What happens during each round?
 
 # Winners
+
 How do you win the game? Do you hog-tie everyone else?
 
 # Variations
+
 Describe some cool variations:
 
 - Maybe play with your eyes closed.
