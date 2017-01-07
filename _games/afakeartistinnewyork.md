@@ -42,7 +42,7 @@ They don't want the fake artist to see the topic.
 Now it's drawing time!
 Get out a blank piece of **paper** and a **pencil or pen**.
 All artists (including the fake) now take turns drawing _a single line_ on the paper.
-A single line can be curvy or straight or cross itself, it just can't involve picking up and putting down the pencil.
+A single line can be curvy or straight or cross itself and start anywhere, it just can't involve picking up and putting down the pencil.
 
 Once each artist has drawn one line, go around the circle again.
 Each artist will finish two lines in total.
@@ -52,8 +52,9 @@ It's just to prove to everyone that you know the topic.
 
 # Voting
 
-Once each artist has drawn two lines, a minute or two of discussion ensues to determine who was the fake artist.
-Feel free to ask and discuss who drew what line, but make sure to still keep the topic secret!
+Once each artist has drawn two lines, a minute or two of silent analysis is allowed.
+Feel free to ask and discuss who drew what line, but _no other discussion can happen_.
+The point of the game is to communicate through the drawing.
 
 At the end of the discussion, every artist is going to vote for who was the fake.
 The commissioner will hold the vote by counting to three and each person points at who they think the fake artist is.
@@ -64,6 +65,6 @@ If the fake artist gets the most votes, but doesn't know the secret topic, every
 
 # Variations
 
-- Don't allow any discussion after drawing is complete.
 - Give each person a different colored pencil to make it easy to see what they drew.
+- Instead of writing "fake" on one slip, write a different topic; have everyone guess who had the different topic and the topic the other side had.
 - Play a version without drawing: instead take turns asking someone a question about the shared topic and listen to their answer.
