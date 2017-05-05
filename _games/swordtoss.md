@@ -19,19 +19,20 @@ tools:
   - Colored tape or some way of marking part of the stick
 ---
 # Setup
-Prepare the **sword**:
+Prepare a **sword**:
 Take the stick and wrap about 4 inches on one end in tape.
 This taped end is the **handle**.
 
 # Gameplay
-All throws and catches are _one handed_.
-People take turns tossing the sword to a **recieving** person.
-The reciever succesfully **catches** the sword if they catch the stick one handed with at least one finger touching the handle.
-They also can **pass** and not move to catch the sword at all.
+People take turns tossing the sword to a person.
+If they catch the stick one handed with at least one finger touching the handle, they're **safe**.
+If they don't catch the sword touching the tape or drop it, then they **lose a limb**!
+They also can **pass** and and be safe if they don't try to catch the sword at all.
+Hide lost limbs behind your back; you can't use them!
+All tosses and catches are _one handed_.
 
-If the reciever doesn't succesfully catch the sword, then they **lose an arm**.
-The first arm lost is the arm used to catch the sword, the second is one of your legs, the third is the other leg.
+The first limb lost is the arm used to catch the sword, the second is one of your legs, the third is the other leg.
 
 # Winners
-Once you've missed three times, you'll have lost all of your arms and you're out.
+Once you've missed three times, you'll have lost all of your limbs and you're out.
 Keep playing until one person is standing.
