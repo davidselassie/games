@@ -12,10 +12,13 @@ tags:
   - winner-everybody
 
 oneliner: Put mustaches on TV
-players: Any
+players: 2 - ~5
 tools:
   - Erasable marker
   - TV
 ---
 # Gameplay
-Draw a mustache somewhere on the TV screen with the erasable marker. Watch a movie or TV show. Whenever the mustache lines up with someone's face, drink.
+Each person draws a mustache somewhere on the TV screen with the erasable marker.
+You can label your mustache with your initials so you don't forget whose is whose.
+Watch a movie or TV show.
+Whenever the mustache lines up with someone's face, they get a point.
