@@ -12,14 +12,20 @@ tags:
   - winner-champion
 
 oneliner: Hold hands and pull people into a broom
-players: 3 - ~30
+players: 3 - ~20
 tools:
   - Broom shaped thing
-  - Stand for broom (e.g. trash can, stool, lower than 4 ft tall)
+  - Stand for broom (e.g. trash can, stool, etc.)
 ---
 # Gameplay
-Setup by laying broom across the stand so that it's in the middle and balanced.
+Setup by laying a **broom** across a **stand** or stool so that it's in the middle and balanced.
 
-Everyone holds hands in a circle around the broom. The purpose of the game is not to touch the broom with any body part. Players now are challenged to, while holding hands, try to drag each other into the 'electric' broom.  Players are simeltaneously trying to drag each other into the broom.  Players can jump over broom, move away from broom, twist and turn, but cannot let go of hands.  If two people let go of each others' hands, both people are out.  If you touch the 'electric' broom, you're out.
+Everyone holds hands in a circle around the broom.
+People all try to drag each other into the 'electric' broom without letting go their hands.
+If anyone touches the broom, they are **out**.
+Players can jump over broom, move away from broom, twist and turn, but cannot let go of hands. 
+If two people let go of each others' hands, both people are out.
 
-Game continues until there is only one player left.  Other players act as referees for the game.
+Whenever someone is out, they're removed from the circle and the people next to them hold hands.
+Game continues until there is only one player left, who is the winner!
+Other players act as referees for the game.
