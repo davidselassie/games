@@ -49,7 +49,7 @@ Here's a sample game description:
 
 # Setup
 
-Describe how to setup the field or any perparations you'll need to make!
+Describe how to setup the field or any preparations you'll need to make!
 
 # Gameplay
 
