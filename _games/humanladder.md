@@ -22,7 +22,7 @@ Play in a large room or similarly sized flat area. At one end, draw out a base l
 People should form teams of two and be given a single cup.
 
 # Gameplay
-Each team takes a turn attemping to place their cup as far as possible from the base line and then return both players fully behind the baseline. When every team has attempted, the team with the farthest cup wins!
+Each team takes a turn attempting to place their cup as far as possible from the base line and then return both players fully behind the baseline. When every team has attempted, the team with the farthest cup wins!
 
 During your turn, the two people are only allowed a cumulative 3 points of contact on the ground beyond the base line. Only hands and feet are allowed as points of contact. As soon as someone touches the ground, that counts as a point of contact, and that point can't be moved or shimmied. It can be fully broken, but touching the ground again afterwards counts as adding a *new* point of contact.
 

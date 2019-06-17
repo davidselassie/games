@@ -28,7 +28,7 @@ The game can be played with each person keeping score as to how many of other pe
 The winner has the most points after some number of rounds.
 
 # Variations
-There are some variations where each person states three different things about themself.
+There are some variations where each person states three different things about themselves.
 
 - Two goals and a regret
 - Two truths and a secret

@@ -31,7 +31,7 @@ It is now a race!
 Runners run back to their team to charade out the clue.
 As soon as someone on their team guesses the clue correctly, the guesser is the new second runner!
 
-They run to the cluemaster to get the second clue, back to their group to charade, and whoever guesses it correctly becomes the third runner.
+They run to the clue master to get the second clue, back to their group to charade, and whoever guesses it correctly becomes the third runner.
 This continues until all the clues have been guessed.
 
 # Winners

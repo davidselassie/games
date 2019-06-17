@@ -27,7 +27,7 @@ Now battle can begin.
 Place the plate with the setup peeps in the microwave.
 Turn the microwave on for 30 seconds, but watch the peeps and be prepared to turn off the microwave.
 
-As the mircowave is on, it will heat up the peeps and cause them to inflate.
+As the microwave is on, it will heat up the peeps and cause them to inflate.
 As they inflate, the toothpicks will start poking towards the other peep.
 When the exposed end of one toothpick pokes the skin of the other peep, since it's softened by the heat, it will pop it and it will slowly deflate.
 

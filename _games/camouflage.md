@@ -43,5 +43,5 @@ Once someone is called out, they come and stand by the hunter.
 When a prey hides, they have to be able to see some part of the hunter at all times.
 
 # Variations
-* When a prey is caught, they put a foot by the hunter's piviot foot and also help them look for people.
+* When a prey is caught, they put a foot by the hunter's pivot foot and also help them look for people.
 * Play in white full-body painters suits in the snow.

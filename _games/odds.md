@@ -21,7 +21,7 @@ players: 2
 # Gameplay
 At any point, you can think of a dare for someone else to do. Go up to them and ask them "what are the odds that you'll _whatever dare_?" E.g:
 
-* What are the odds you'll take a shot of katsup?
+* What are the odds you'll take a shot of catsup?
 * What are the odds that you'll take 10 selfies with strangers tonight?
 * What are the odds you'll wear your shoes next time you shower?
 

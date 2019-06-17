@@ -31,7 +31,7 @@ Then everyone opens their eyes.
 Once everyone has opened their eyes, display all the portraits face-up on the table.
 On their fronts, someone label them A, B, C, etc.
 
-Then each peson takes their **score card** and tries to match A, B, C, etc. with each person playing.
+Then each person takes their **score card** and tries to match A, B, C, etc. with each person playing.
 
 Once everyone's had a chance to write out all their guesses, flip over the drawing papers to see what the correct answers are.
 Score yourself.

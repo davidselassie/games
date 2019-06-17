@@ -36,4 +36,4 @@ The center beers will slowly become incorporated into the two stacks that are ci
 As they grow taller, it becomes harder to bounce the balls in.
 
 # Winners
-Whoever gets lapped when there is one cup remaning has to drink the full beer and buy the beer for the next round.
+Whoever gets lapped when there is one cup remaining has to drink the full beer and buy the beer for the next round.

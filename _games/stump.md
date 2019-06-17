@@ -30,7 +30,7 @@ You have a bad flip and aren't allowed to go for a nail if:
 
 If you hit someone's nail, they take a drink. If you flush someone's nail, they have to finish their beer and they are _out_. If you have a bad flip, you drink.
 
-You are allowed one swing per complete revolution the hammer makes during your flip. E.g. if you flip the hammer and it spins around twice and you catch it, you can immeidately go into _two_ swings to try to hit nails.
+You are allowed one swing per complete revolution the hammer makes during your flip. E.g. if you flip the hammer and it spins around twice and you catch it, you can immediately go into _two_ swings to try to hit nails.
 
 Once your attempt a flip, your turn is over. Pass the hammer around the stump to the next person who isn't out.
 
