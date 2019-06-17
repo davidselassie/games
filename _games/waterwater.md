@@ -12,7 +12,7 @@ tags:
   - style-icebreaker
   - winner-everybody
 
-oneliner: A really short one-line description of the game
+oneliner: Pour water on your friends
 players: ~5 - ~20
 tools:
   - Water bottle or glass
