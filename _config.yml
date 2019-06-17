@@ -1,7 +1,6 @@
 ---
-baseurl: /games
 github:
-  repository_url: https://github.com/selassid/games
+  repository_url: https://github.com/davidselassie/games
 collections:
   games:
       output: true
