@@ -85,4 +85,4 @@ Player 1: Is it a person who herds animals?
 It Player: No, it is not a SHEpard.
 
 # Variations
-- If two players mess up a contact, as in they don't say the same words on the count of 3, they immediately start a game of [Mind Meld]({{ site.baseurl }}/games/mind-meld.html) with those two words as the seed words.
+- If two players mess up a contact, as in they don't say the same words on the count of 3, they immediately start a game of [Mind Meld]({{ site.baseurl }}/games/mindmeld.html) with those two words as the seed words.
