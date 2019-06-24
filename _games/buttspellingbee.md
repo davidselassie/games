@@ -20,13 +20,18 @@ players: 2+
 ---
 # Gameplay
 
-Players take turns being the **speller**. The speller then thinks of their **secret word**.
+Players take turns being the **speller**. The speller then thinks of their
+**secret word**.
 
-They go to the front of the room, then turn around so their butt is facing the audience, and spell their secret word by writing it in mid air with their butt.
+They go to the front of the room, then turn around so their butt is facing the
+audience, and spell their secret word by writing it in mid air with their butt.
 
-The audience yells out guesses for the secret word and the speller repeats spelling it until the audience guesses correctly.
+The audience yells out guesses for the secret word and the speller repeats
+spelling it until the audience guesses correctly.
 
 # Variations
 
 - Have a bowl of secret words.
-- Play with teams; see which team can get the most secret words in a fixed amount of time.
+
+- Play with teams; see which team can get the most secret words in a fixed
+  amount of time.

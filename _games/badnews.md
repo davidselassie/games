@@ -16,4 +16,6 @@ oneliner: Try not to laugh at some bad news
 players: 2
 ---
 # Gameplay
-Take turns making up a story of bad news and telling it very sincerely to another person. Whoever starts laughing first loses.
+
+Take turns making up a story of bad news and telling it very sincerely to
+another person. Whoever starts laughing first loses.

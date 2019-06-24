@@ -18,7 +18,8 @@ tools:
   - TV
 ---
 # Gameplay
-Each person draws a mustache somewhere on the TV screen with the erasable marker.
-You can label your mustache with your initials so you don't forget whose is whose.
-Watch a movie or TV show.
-Whenever the mustache lines up with someone's face, they get a point.
+
+Each person draws a mustache somewhere on the TV screen with the erasable
+marker. You can label your mustache with your initials so you don't forget whose
+is whose. Watch a movie or TV show. Whenever the mustache lines up with
+someone's face, they get a point.
